@@ -8,7 +8,8 @@ export class Project {
     public id: string,
     public title: string,
     public description: string,
-    public people: number,
-    public status: ProjectStatus
+    public people: number, 
+    public comment: string,
+    public status: ProjectStatus,
   ) {}
 }
