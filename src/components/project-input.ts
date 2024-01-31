@@ -46,13 +46,13 @@ export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
     const descriptionValidatable: Validatable = {
       value: enteredDescription,
       required: true,
-      minLength: 5,
+      minLength: 1,
     };
     const peopleValidatable: Validatable = {
       value: +enteredPeople,
       required: true,
       min: 1,
-      max: 5,
+      max: 100,
     };
     const commentValidatable: Validatable = {
       value: enteredComment,
